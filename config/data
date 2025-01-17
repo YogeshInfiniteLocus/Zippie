@@ -1,0 +1,24 @@
+browserName: chrome	
+browserName: firefox
+prodURL: https://app.easyecom.io/V2/account/auth/login
+allureCommand: cmd /c cd C:\Users\Dell\Downloads\ZipppeeAutomationProject-master\ZipppeeAutomationProject-master && allure generate allure-results --clean -o allure-report
+netlifyURl: https://app.netlify.com/
+loginOptn: //button[text()='Log in with email']
+id: //input[@autocomplete=\"email\"]
+pass: //input[@name=\"password\"]
+signIn: (//button[contains(text(),'Log in')])[1]
+fileUpload: //p[@class=\"dropzone-browse\"]/label
+file: C:\\Users\\DELL\\eclipse-workspace\\Zipppee_Automation\\target\\allure-report
+optionButton://button[@name=\"Options\"]
+deploySetting: //ul[@role=\"listbox\"]/li/button/span
+siteDetails: (//div[@class=\"layout-sidebar\"]/nav/ul/li[1]//ul/li/a)[1]
+changeSite: //button[text()='Change site name']
+siteInput: //div[@class=\"tw-c-modal-body\"]//input
+saveButton: //button[contains(text(),'Save')]
+link: (//div[@class=\"container\"]/div/a)[1]
+iconButton: //*[@id="root"]/div[2]/div[2]/div[1]/div/div/div/div[6]/div/div/button
+signout: (//li/button[text()='Sign out'])[2]
+dbUrl01 = jdbc:mysql://readreplica-live.cnaoy1kocghu.ap-south-1.rds.amazonaws.com:3306/django_zfw
+dbUrl02 = jdbc:mysql://readreplica-live.cnaoy1kocghu.ap-south-1.rds.amazonaws.com:3306/django_zfw?useSSL=false
+dbUsername = tester-2
+dbPassword = RpqQ2ImssAQK8ReTdQ

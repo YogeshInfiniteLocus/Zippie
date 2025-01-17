@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WhatsAppFlow">
+	<test name="Test_WhatsAppFlow">
+		<classes>
+			<class name="test.Test_Happy_Flow_01_COD" />
+			<class name="test.Test_Happy_Flow_02_PrePaid" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
